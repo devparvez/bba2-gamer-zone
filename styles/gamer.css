@@ -51,6 +51,38 @@ nav{
     background-color: #e7e6e9;
     border-radius: .5rem;
 }
+.btn-nav .fa-youtube{
+    color:red;
+}
+/* banner styles */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+  max-width:30%;
+}
+.banner-content h3{
+    font-size:3rem;
+    font-weight: 600;
+}
+.banner-content h2{
+    font-weight: 900;
+    font-size:6rem;
+    background-image: linear-gradient(to bottom, #F948B2, 
+    #8758F1);
+   -webkit-background-clip: text;
+   color:transparent;
+    /* color:#F948B2;
+    color:#8758F1; */
+} */
+.banner-photo{
+  max-width:50%;
+}
+.banner-photo img{
+    width:100%;
+}
 
 /* for mobile devices */
 @media  screen and (max-width:576px) {
