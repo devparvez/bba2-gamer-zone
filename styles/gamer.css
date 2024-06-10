@@ -162,5 +162,22 @@ nav{
     nav{
         flex-direction: column;
     }
+    .banner{
+        margin:50px 0px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+      max-width:100%;
+      padding:20px;
+      
+    }
+    .banner-photo{
+      max-width:100%;
+      }
+    header{
+        margin:0px 0px;
+    }
 
 }
