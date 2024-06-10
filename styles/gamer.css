@@ -204,6 +204,21 @@ main{
     .banner-content h3{
         font-size:2.5rem;
     }
+    /* gamer section */
+    .we-are-gamer-container{
+        flex-direction: column;
+    }
+    .we-are-gamer-photo{
+        width:80%;
+     }
+     .we-are-gamer-content{
+        width:100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .ellipsis{
+        padding-left:20px;
+    }
      
 }
 
