@@ -16,13 +16,13 @@ body {
 }
 
 
-*{
+ *{
     margin:0px;
     padding:0px;
     text-decoration: none;
     list-style: none;
 
-}
+} 
 header{
     margin:5px 150px;
 }
@@ -65,10 +65,14 @@ nav{
     color:red;
 }
 /* banner styles */
+.banner{
+    margin-top:100px;
+}
 .banner-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .banner-content{
   max-width:30%;
@@ -127,17 +131,28 @@ nav{
         text-wrap: nowrap;
     }
     /* banner styles*/
+    .banner{
+        margin:50px 0px;
+    }
     .banner-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner-content{
       max-width:100%;
+      padding:20px;
+      
     }
     .banner-photo{
-        width:100%;
+      max-width:100%;
       }
     header{
         margin:0px 0px;
+    }
+    .banner-content h2{
+        font-size:5rem;
+    }
+    .banner-content h3{
+        font-size:2.5rem;
     }
      
 }
