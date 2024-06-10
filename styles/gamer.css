@@ -1,9 +1,19 @@
+/* shared styles */
 
 body {
         font-family: "Work Sans", sans-serif;
         font-optical-sizing: auto;
         
       }
+.btn-primary{
+    padding:10px 20px;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size:1.2rem;
+    color:#fff;
+}
 
 
 *{
@@ -62,6 +72,9 @@ nav{
 }
 .banner-content{
   max-width:30%;
+  background-color: #fbf7fd;
+  border-radius: 8px;
+  padding:30px;
 }
 .banner-content h3{
     font-size:3rem;
@@ -74,14 +87,29 @@ nav{
     #8758F1);
    -webkit-background-clip: text;
    color:transparent;
-    /* color:#F948B2;
-    color:#8758F1; */
-} */
+    
+} 
 .banner-photo{
   max-width:50%;
 }
 .banner-photo img{
     width:100%;
+}
+.banner-content li a{
+    font-size:1.2rem;
+    font-weight: 500;
+    margin-left:10px;
+   
+}
+.banner-content li{
+    margin-bottom: 10px;
+}
+.sign-color{
+    background-color: #eb5757;
+}
+.rougue-color{
+    background-color: #4ec5f7;
+    margin-left:15px;
 }
 
 /* for mobile devices */
@@ -98,7 +126,19 @@ nav{
         padding:10px;
         text-wrap: nowrap;
     }
+    /* banner styles*/
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        width:100%;
+    }
+    .banner-photo{
+        width:100%;
+      }
+     
 }
+     
 /* for medium devices */
 @media screen and (min-width:576px) and (max-width:992px){
     nav{
