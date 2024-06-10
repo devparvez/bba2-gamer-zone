@@ -24,7 +24,8 @@ body {
 
 } 
 header{
-    margin:5px 150px;
+     margin:5px 150px; 
+    
 }
 /* nav styles start here */
 nav{
@@ -115,6 +116,55 @@ nav{
     background-color: #4ec5f7;
     margin-left:15px;
 }
+/* We are gamer style */
+main{
+   max-width:1200px;
+    margin:50px auto;
+}
+.we-are-gamer-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .we-are-gamer-photo{
+    width:60%;
+ }
+.we-are-gamer-photo img{
+    width:100%;
+}
+.we-are-gamer-content{
+    width:40%;
+}
+.we-are-gamer-content h3{
+    font-weight: 600;
+    font-size:3rem;
+    background-image: linear-gradient(to bottom, #F948B2, 
+    #8758F1);
+   -webkit-background-clip: text;
+   color:transparent;
+   margin-bottom:15px;
+    
+}
+.we-are-gamer-content .first{
+    font-size:1.2rem;
+    margin-bottom:15px;
+}
+.game-btn-color{
+    background-color: #ff42a5;
+}
+.ellipsis{
+    white-space: nowrap;
+    width:120px;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.we-are-gamer-content h4{
+    font-size:1.2rem;
+    font-weight: 800;
+}
 
 /* for mobile devices */
 @media  screen and (max-width:576px) {
@@ -156,6 +206,7 @@ nav{
     }
      
 }
+
      
 /* for medium devices */
 @media screen and (min-width:576px) and (max-width:992px){
