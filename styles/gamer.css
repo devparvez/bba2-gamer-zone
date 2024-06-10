@@ -131,11 +131,14 @@ nav{
         flex-direction: column;
     }
     .banner-content{
-        width:100%;
+      max-width:100%;
     }
     .banner-photo{
         width:100%;
       }
+    header{
+        margin:0px 0px;
+    }
      
 }
      
