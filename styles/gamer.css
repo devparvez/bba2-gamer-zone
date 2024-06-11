@@ -167,6 +167,36 @@ main{
     font-size:1.2rem;
     font-weight: 800;
 }
+/* card section style */
+.card-header{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.card-header h3{
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+.card-header h3 span{
+    font-weight: 600;
+    font-size:3rem;
+    background-image: linear-gradient(to bottom, #F948B2, 
+    #8758F1);
+   -webkit-background-clip: text;
+   color:transparent;
+}
+.box-card{
+    display: flex;
+    gap:15px; 
+    justify-content: space-evenly;
+}
+.card{
+  
+    width:25%;
+}
+ .card-photo img{
+    width:100%;
+} 
 
 /* for mobile devices */
 @media  screen and (max-width:576px) {
@@ -221,6 +251,15 @@ main{
     .ellipsis{
         padding-left:20px;
     }
+    .box-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+  
+        width:90%;
+        text-align: center;
+    }
      
 }
 
@@ -260,6 +299,15 @@ main{
     }
     .ellipsis{
         padding-left:20px;
+    }
+    .box-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+  
+        width:90%;
+        text-align: center;
     }
 
 }
