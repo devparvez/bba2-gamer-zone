@@ -196,6 +196,59 @@ main{
 }
  .card-photo img{
     width:100%;
+}
+/* play instant styles  */
+.playinstant-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    gap:200px;
+    
+}
+.playinstant-container::-webkit-scrollbar{
+    display: none;
+}
+.play-instant-content{
+    max-width: 30%;
+    text-align: center;
+}
+.play-instant-photos{
+    max-width:50%;
+    
+}
+.play-instant-photos::-webkit-scrollbar{
+    display:none;
+}
+.play-instant-photos .instant-photo1{
+    width:100%;
+    
+}
+.play-instant-photos .instant-photo2{
+    position:absolute;
+    bottom:-150px;
+    right:350px;
+    z-index: 2;
+    width:300px;
+
+    
+}
+.play-instant-content h3{
+    font-weight: 600;
+    font-size:3rem;
+    margin-bottom:20px;
+
+}
+.play-instant-content h3 span{
+    font-weight: 600;
+    font-size:3rem;
+    background-image: linear-gradient(to bottom, #F948B2, 
+    #8758F1);
+   -webkit-background-clip: text;
+   color:transparent;
+}
+ .play-instant{
+    margin:100px 0px;
 } 
 
 /* for mobile devices */
