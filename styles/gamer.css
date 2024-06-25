@@ -313,6 +313,21 @@ main{
         width:90%;
         text-align: center;
     }
+    .playinstant-container{
+        flex-direction: column;
+    }
+    .play-instant-photos{
+        max-width:100%;
+    }  
+    .play-instant-photos .instant-photo2{
+        position:absolute;
+        bottom:-38px;
+        right:225px;
+        z-index: 2;
+        width:150px;
+    
+        
+    }  
      
 }
 
@@ -362,5 +377,11 @@ main{
         width:90%;
         text-align: center;
     }
+    .play-instant-photos{
+        max-width:100%;
+    }
+    .playinstant-container{
+        flex-direction: column;
+    }  
 
 }
