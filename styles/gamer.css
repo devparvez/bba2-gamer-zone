@@ -295,6 +295,28 @@ main{
 .careers-content-part{
     margin: 20px 0px;
 }
+.button-container{
+    max-width: 1200px;
+    margin:50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:6px;
+    justify-content: center;
+    
+  
+}
+.button-container .btn-middle{
+    display: flex;
+    align-items: center;
+    gap:5px;
+   
+}
+.button-container a:hover,
+.button-container .btn-middle:hover {
+
+    color: #ff42a5;
+    border: 1px solid #ff42a5 ;
+  }
 
 /* for mobile devices */
 @media  screen and (max-width:576px) {
@@ -383,6 +405,7 @@ main{
     .careers-photo{
         width:90%;
     }
+   
      
 }
 
@@ -449,5 +472,6 @@ main{
         width:90%;
     }
      
+   
 
 }
