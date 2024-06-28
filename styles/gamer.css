@@ -295,6 +295,7 @@ main{
 .careers-content-part{
     margin: 20px 0px;
 }
+/* button starts */
 .button-container{
     max-width: 1200px;
     margin:50px auto;
@@ -317,6 +318,55 @@ main{
     color: #ff42a5;
     border: 1px solid #ff42a5 ;
   }
+  /* footer starts */
+  footer{
+    background-color: #000;
+  }
+  .footer-container{
+    max-width: 1200px;
+    text-align: center;
+    color:#fff;
+    margin:0 auto;
+    padding:100px 0px;
+  }
+ 
+  .footer-container .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px;
+  }
+  .footer-container .logo span{
+    color:#ff42a5;
+  }
+  .footer-button a{
+    font-size:1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    color:#fff;
+    margin-right: 10px;
+
+  }
+  .footer-container .logo-size a{
+    font-size: 1.5rem;
+    color:#fff;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .terms a{
+    color:#8b8796;
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .footer-container p{
+    margin-top: 1rem;
+    color:#8b8796;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
 
 /* for mobile devices */
 @media  screen and (max-width:576px) {
