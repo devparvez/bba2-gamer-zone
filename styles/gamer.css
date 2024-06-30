@@ -433,6 +433,10 @@ main{
     .playinstant-container{
         flex-direction: column;
     }
+    .play-instant-content{
+        max-width: 95%;
+        text-align: center;
+    }
     .play-instant-photos{
         max-width:100%;
     }  
